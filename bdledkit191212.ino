@@ -605,7 +605,7 @@ void setup() {
 
   //連携モードならbluetoothをonにする
   //bluetoothおんだと処理が重いせいかアナログリードが動かん
-  if(bdmode == 1 || bdmode ==2) SerialBT.begin("ESP32");//これも115200bps
+  if(bdmode == 1 || bdmode ==2) SerialBT.begin("BDLEDKIT");//これも115200bps
 
   if(bdmode == 1){
     pinMode(SWR_1, OUTPUT);

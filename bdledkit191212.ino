@@ -56,8 +56,8 @@ typedef struct {
 #define LEDR_G 33
 #define LEDR_B 25
 #define LEDL_R 26
-#define LEDL_G 14
-#define LEDL_B 27
+#define LEDL_G 27
+#define LEDL_B 14
 #define SWR_1  23
 #define SWR_2  22
 #define SWR_3  21
